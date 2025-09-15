@@ -7,7 +7,7 @@ import customer_retention from "@/assets/imgs/customer-retention.png";
 import tick from "@/assets/imgs/tick.png";
 import package_2 from "@/assets/imgs/package-2.png";
 
-const Acheivements = () => {
+const Achievements = () => {
   return (
     <section className="my-10 md:my-40">
       <div className="flex flex-col md:grid md:grid-cols-2 gap-2">
@@ -72,4 +72,4 @@ const Acheivements = () => {
   );
 };
 
-export default Acheivements;
+export default Achievements;
