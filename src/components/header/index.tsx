@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../../assets/imgs/CXD-Logo-Blue-black.png";
+import logo from "@/assets/imgs/CXD-Logo-Blue-black.png";
 
 const Header = () => {
   return (
