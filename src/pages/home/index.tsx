@@ -1,5 +1,4 @@
 import { motion } from "motion/react";
-import best_design from "../../assets/imgs/best_design.png";
 import experience from "../../assets/imgs/experience.png";
 import user from "../../assets/imgs/user.png";
 import customer from "../../assets/imgs/costumer.png";
@@ -20,40 +19,12 @@ import mushtaq from "../../assets/imgs/mushtaq.webp";
 import budget_blaze from "../../assets/imgs/Budget-Blaze.png";
 import bblaze from "../../assets/imgs/BBlaze.png";
 import planning from "../../assets/imgs/planning.png";
+import Banner from "./components/banner";
 
 const Home = () => {
   return (
     <div className="my-container">
-      {/* Section 01 */}
-      <section>
-        <div className="mt-16 flex flex-col  md:flex-row items-center md:mt-40 gap-4">
-          <div className="text-center  md:text-left flex flex-col gap-y-4 ">
-            <div>
-              <h5 className="lato-black text-sm">WITH OUR EXCELLENT TEAM</h5>
-              <h1 className="lato-black text-5xl  md:text-6xl text-blue">
-                We Build The Best Designs
-              </h1>
-            </div>
-            <p className="text-gray-500 lato-regular text-base">
-              Our team blends creativity and innovation to deliver stunning
-              results. From concept to completion, we ensure every detail is
-              perfect. Let us bring your vision to life with designs that
-              inspire and captivate.
-            </p>
-            <div className="flex justify-center md:justify-start mt-2">
-              <button className="py-2 px-6 bg-blue-600 rounded-md text-white items-center flex gap-2 hover:bg-black transition-colors duration-500">
-                Get Started
-                <i className="fa-solid fa-circle-arrow-right"></i>
-              </button>
-            </div>
-          </div>
-          <div className="hidden md:flex">
-            <img src={best_design} alt="" />
-          </div>
-        </div>
-      </section>
-
-      {/* Section 02 */}
+      <Banner />
       <section className="mt-10 md:mt-40">
         <div className="text-center mb-10">
           <h5 className="lato-black text-sm tracking-widest">WHAT WE DO</h5>
