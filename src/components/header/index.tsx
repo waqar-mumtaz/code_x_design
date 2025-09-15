@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { motion } from "motion/react";
 import logo from "../../assets/imgs/CXD-Logo-Blue-black.png";
 
 const Header = () => {
@@ -44,14 +43,9 @@ const Header = () => {
           </Link>
         </div>
 
-        <motion.div
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.95 }}
-          onHoverStart={() => console.log("hover started!")}
-          className="py-2 px-3 bg-black text-white rounded-md cursor-pointer hover:bg-blue-700 transition-colors duration-500 ml-5"
-        >
+        <div className="py-2 px-3 bg-black text-white rounded-md cursor-pointer hover:bg-blue-700 hover:scale-110 active:scale-95 transition-all duration-300 ml-5">
           <i className="fa-solid fa-bars"></i>
-        </motion.div>
+        </div>
       </div>
     </nav>
   );
