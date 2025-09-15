@@ -1,8 +1,8 @@
 import Home from "./pages/home";
 import Header from "./components/header";
-import About from "./pages/about";
+import Services from "./pages/services";
 import { Routes, Route } from "react-router-dom";
-import Contact from "./pages/contact";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -10,9 +10,9 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/Services" element={<Services />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

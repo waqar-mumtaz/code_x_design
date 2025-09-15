@@ -2,3 +2,59 @@
 @tailwind components;
 @tailwind utilities;
 
+.my-container {
+  max-width: 1150px;  
+  margin-left: auto; 
+  margin-right: auto;
+  padding-left: 1rem; 
+  padding-right: 1rem;
+}
+
+.lato-thin {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-bold-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.bg-blue
+{
+    background-color: #0671D0;
+}
+
+.text-blue
+{
+    color: #0671D0;
+}
+
