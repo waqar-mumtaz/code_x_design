@@ -1,6 +1,6 @@
 import React from "react";
 
-import experience from "@/assets/imgs/BBlaze.png";
+import experience from "@/assets/imgs/experience.png";
 import user from "@/assets/imgs/user.png";
 import customer from "@/assets/imgs/costumer.png";
 import customer_retention from "@/assets/imgs/customer-retention.png";

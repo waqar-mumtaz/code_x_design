@@ -11,7 +11,9 @@ const OurWorks = () => {
   return (
     <section className="mt-28">
       <div className="text-center">
-        <h5 className="lato-black tracking-widest text-sm">SEE WHAT WE WORK</h5>
+        <h5 className="lato-black tracking-widest text-sm uppercase ">
+          see what we work
+        </h5>
         <h1 className="text-5xl lato-black text-blue tracking-wider">
           Our Latest Work
         </h1>

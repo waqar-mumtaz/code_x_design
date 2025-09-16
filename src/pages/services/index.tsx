@@ -1,5 +1,6 @@
 import { motion } from "motion/react";
 import img from "../../assets/imgs/services.jpg";
+import contact_us from "@/assets/imgs/contact_us.jpeg";
 
 const Services = () => {
   return (
@@ -15,7 +16,7 @@ const Services = () => {
       {/* Section 02 */}
       <section className="mt-5 md:mt-20">
         <div className="text-center mb-10">
-          <h5 className="lato-black text-sm tracking-widest">WHAT WE DO</h5>
+          <p className="lato-black text-sm tracking-widest">WHAT WE DO</p>
           <motion.h1
             className="lato-black text-5xl text-blue"
             initial={{ opacity: 0, y: 100 }}
@@ -130,6 +131,26 @@ const Services = () => {
             </p>
             <i className="fa-solid fa-arrow-right text-sky-600 mt-5 group-hover:text-white transition-colors duration-500"></i>
           </div>
+        </div>
+      </section>
+      <section className="relative w-full h-[90vh] md:h-[80vh] lg:h-[70vh] mt-5">
+        <img
+          className="w-full h-full object-cover"
+          src={contact_us}
+          alt="Services"
+        />
+        <div className="absolute inset-0 flex flex-col gap-8 items-center justify-center bg-black/40">
+          <div>
+            <p className="uppercase lato-bold tracking-wider text-center text-white">
+              appoinment
+            </p>
+            <h1 className="lato-black text-5xl text-blue">
+              Start Your Project With Us
+            </h1>
+          </div>
+          <button className="py-2 px-6 bg-white rounded-md items-center flex gap-2 hover:text-white hover:bg-black transition-colors duration-500">
+            Contact Us <i className="fa-solid fa-circle-arrow-right"></i>
+          </button>
         </div>
       </section>
     </div>
