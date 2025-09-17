@@ -1,3 +1,11 @@
+import logistics from "@/assets/imgs/Logistics.png";
+import realestate from "@/assets/imgs/realestate.png";
+import fitness from "@/assets/imgs/Fitness.png";
+import travel from "@/assets/imgs/travel.png";
+import social from "@/assets/imgs/social.png";
+import ecommerce from "@/assets/imgs/ecommerce.png";
+import tutor from "@/assets/imgs/Tutor.png";
+
 export const navLinks = [
   {
     name: "Home",
@@ -88,5 +96,57 @@ export const servicesData = [
     description: "Explore all our offerings on the services page.",
     icon: "fa-solid fa-braille",
     active: true,
+  },
+];
+
+export const experienceData = [
+  {
+    id: 1,
+    image: logistics,
+    title: "Logistics",
+    description:
+      "Our logistics website service streamlines the movement of goods. From efficient supply chain management to tracking shipments, we optimize logistics processes for businesses, ensuring seamless transportation and delivery solutions.",
+  },
+  {
+    id: 2,
+    image: realestate,
+    title: "Real Estate",
+    description:
+      "Discover your dream home with our real estate website service. Explore property listings, connect with agents, and find the perfect place to call your own. Your ideal home is just a click away.",
+  },
+  {
+    id: 3,
+    image: fitness,
+    title: "Health & Fitness",
+    description:
+      "Elevate your well-being with our health and fitness website service. Access workouts, nutrition guidance, and expert tips to achieve your fitness goals and lead a healthier, happier life.",
+  },
+  {
+    id: 4,
+    image: travel,
+    title: "Travel & Hotel",
+    description:
+      "Our travel website service offers a one-stop solution for all your travel needs. From flight and hotel bookings to destination guides, we make your journey a seamless and unforgettable experience.",
+  },
+  {
+    id: 5,
+    image: social,
+    title: "Social Networking",
+    description:
+      "Connect and engage with friends and the world through our social networking website service. Share moments, discover new connections, and stay updated on the latest trends in a vibrant online community.",
+  },
+  {
+    id: 6,
+    image: ecommerce,
+    title: "E-commerce",
+    description:
+      "Transform your business with our e-commerce website service. Create stunning online stores, manage inventory, process payments, and provide exceptional shopping experiences for your customers.",
+  },
+  {
+    id: 7,
+    image: tutor,
+    title: "Education & Tutoring",
+    description:
+      "Enhance learning experiences with our education and tutoring website service. Connect students with expert tutors, access interactive learning materials, and achieve academic success through personalized guidance.",
   },
 ];

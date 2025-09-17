@@ -1,12 +1,11 @@
-import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination, Autoplay } from "swiper/modules";
 
-import logistics from "@/assets/imgs/Logistics.png";
-import realestate from "@/assets/imgs/realestate.png";
-import fitness from "@/assets/imgs/Fitness.png";
-import travel from "@/assets/imgs/travel.png";
-import social from "@/assets/imgs/social.png";
-import ecommerce from "@/assets/imgs/ecommerce.png";
-import tutor from "@/assets/imgs/Tutor.png";
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import { experienceData } from "@/assets/data";
 
 const Experience = () => {
   return (
@@ -17,104 +16,58 @@ const Experience = () => {
           Industry Experience
         </h1>
       </div>
-      <div className="grid grid-cols-4 gap-7">
-        <div>
-          <img src={logistics} alt="" />
-          <div className="bg-blue-100 text-center h-80 px-7 pt-7 mt-6">
-            <h2 className="lato-bold text-xl tracking-wider text-blue">
-              Logistics
-            </h2>
-            <p className="lato-regular mt-4">
-              Our logistics website service streamlines the movement of goods.
-              From efficient supply chain management to tracking shipments, we
-              optimize logistics processes for businesses, ensuring seamless
-              transportation and delivery solutions.
-            </p>
-          </div>
-        </div>
-        <div>
-          <img src={realestate} alt="" />
-          <div className="bg-blue-100 text-center h-80 px-7 pt-7 mt-6">
-            <h2 className="lato-bold text-xl tracking-wider text-blue">
-              Real Estate
-            </h2>
-            <p className="lato-regular mt-4">
-              Discover your dream home with our real estate website service.
-              Explore property listings, connect with agents, and find the
-              perfect place to call your own. Your ideal home is just a click
-              away.
-            </p>
-          </div>
-        </div>
-        <div>
-          <img src={fitness} alt="" />
-          <div className="bg-blue-100 text-center h-80 px-7 pt-7 mt-6">
-            <h2 className="lato-bold text-xl tracking-wider text-blue">
-              Health & Fitness
-            </h2>
-            <p className="lato-regular mt-4">
-              Elevate your well-being with our health and fitness website
-              service. Access workouts, nutrition guidance, and expert tips to
-              achieve your fitness goals and lead a healthier, happier life.
-            </p>
-          </div>
-        </div>
-        <div>
-          <img src={travel} alt="" />
-          <div className="bg-blue-100 text-center h-80 px-7 pt-7 mt-6">
-            <h2 className="lato-bold text-xl tracking-wider text-blue">
-              Travel & Hotel
-            </h2>
-            <p className="lato-regular mt-4">
-              Our travel website service offers a one-stop solution for all your
-              travel needs. From flight and hotel bookings to destination
-              guides, we make your journey a seamless and unforgettable
-              experience.
-            </p>
-          </div>
-        </div>
-        <div>
-          <img src={social} alt="" />
-          <div className="bg-blue-100 text-center h-80 px-7 pt-7 mt-6">
-            <h2 className="lato-bold text-xl tracking-wider text-blue">
-              Social Networking
-            </h2>
-            <p className="lato-regular mt-4">
-              Connect and engage with friends and the world through our social
-              networking website service. Share moments, discover new
-              connections, and stay updated on the latest trends in a vibrant
-              online
-            </p>
-          </div>
-        </div>
-        <div>
-          <img src={ecommerce} alt="" />
-          <div className="bg-blue-100 text-center h-80 px-7 pt-7 mt-6">
-            <h2 className="lato-bold text-xl tracking-wider text-blue">
-              Social Networking
-            </h2>
-            <p className="lato-regular mt-4">
-              Connect and engage with friends and the world through our social
-              networking website service. Share moments, discover new
-              connections, and stay updated on the latest trends in a vibrant
-              online
-            </p>
-          </div>
-        </div>
-        <div>
-          <img src={tutor} alt="" />
-          <div className="bg-blue-100 text-center h-80 px-7 pt-7 mt-6">
-            <h2 className="lato-bold text-xl tracking-wider text-blue">
-              Social Networking
-            </h2>
-            <p className="lato-regular mt-4">
-              Connect and engage with friends and the world through our social
-              networking website service. Share moments, discover new
-              connections, and stay updated on the latest trends in a vibrant
-              online
-            </p>
-          </div>
-        </div>
+
+      {/* Swiper Carousel */}
+      <div className="mt-12 relative">
+        <Swiper
+          modules={[Pagination, Autoplay]}
+          spaceBetween={30}
+          slidesPerView={4}
+          pagination={{
+            clickable: true,
+          }}
+          autoplay={{
+            delay: 3000,
+            disableOnInteraction: false,
+          }}
+          loop={true}
+          breakpoints={{
+            320: {
+              slidesPerView: 1,
+              spaceBetween: 20,
+            },
+            640: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            768: {
+              slidesPerView: 3,
+              spaceBetween: 30,
+            },
+            1024: {
+              slidesPerView: 4,
+              spaceBetween: 30,
+            },
+          }}
+        >
+          {experienceData.map((item) => (
+            <SwiperSlide key={item.id}>
+              <div className="flex flex-col">
+                <img
+                  src={item.image}
+                  alt={item.title}
+                  className="w-full h-auto"
+                />
+                <div className="bg-blue-100 text-center h-80 px-7 pt-7 mt-6">
+                  <h2 className="lato-bold text-xl tracking-wider text-blue">
+                    {item.title}
+                  </h2>
+                  <p className="lato-regular mt-4">{item.description}</p>
+                </div>
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
       </div>
     </section>
   );

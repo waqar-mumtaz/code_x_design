@@ -79,3 +79,29 @@
   animation-delay: 0.4s;
 }
 
+/* Swiper Custom Styles - Navigation disabled, using custom buttons */
+
+.swiper-pagination {
+  position: relative !important;
+  margin-top: 32px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 8px !important;
+}
+
+.swiper-pagination-bullet {
+  background: rgba(6, 113, 208, 0.3) !important;
+  opacity: 1 !important;
+  width: 10px !important;
+  height: 10px !important;
+  margin: 0 !important;
+  border-radius: 50% !important;
+  transition: all 0.2s ease !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #0671D0 !important;
+  transform: scale(1.2) !important;
+}
+
