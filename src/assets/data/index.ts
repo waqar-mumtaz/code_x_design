@@ -5,6 +5,12 @@ import travel from "@/assets/imgs/travel.png";
 import social from "@/assets/imgs/social.png";
 import ecommerce from "@/assets/imgs/ecommerce.png";
 import tutor from "@/assets/imgs/Tutor.png";
+import mushtaq from "@/assets/imgs/mushtaq.webp";
+import aysha_logo from "@/assets/imgs/aysha_logo.png";
+import haider_logo from "@/assets/imgs/haider_logo.png";
+import ali_logo from "@/assets/imgs/ali_logo.png";
+import asfi_logo from "@/assets/imgs/asfi_logo.jpg";
+import hammad_logo from "@/assets/imgs/hammad_logo.jpeg";
 
 export const navLinks = [
   {
@@ -235,5 +241,56 @@ export const faqData = [
     question: "Which social media platforms do you work with?",
     answer:
       "We work with all major social media platforms including Facebook, Instagram, Twitter, LinkedIn, YouTube, TikTok, Pinterest, and emerging platforms. We create platform-specific content and strategies for maximum engagement.",
+  },
+];
+
+export const testimonialsData = [
+  {
+    id: 1,
+    name: "Engr Mushtaq",
+    company: "Al Munnaf",
+    image: mushtaq,
+    testimonial:
+      "We couldn't be happier with the website developed for ALMUNNAF. It perfectly represents our services with a professional and user-friendly design. The team understood our vision and delivered beyond expectations.",
+  },
+  {
+    id: 2,
+    name: "Miss Aysha",
+    company: "AM Design-Build",
+    image: aysha_logo,
+    testimonial:
+      "The website you created for AM Design-Build is nothing short of amazing. It's sleek, functional, and truly highlights our expertise in design and construction. Your attention to detail and commitment to excellence have made this project a success.",
+  },
+  {
+    id: 3,
+    name: "Haider Shahzad",
+    company: "HS Products",
+    image: haider_logo,
+    testimonial:
+      "Thank you for delivering an exceptional eCommerce website for HS Products. The design is clean, the navigation is intuitive, and it perfectly showcases our product range. You made the entire process smooth and efficient.",
+  },
+  {
+    id: 4,
+    name: "Mr Ali",
+    company: "World Bank Notes Hub",
+    image: ali_logo,
+    testimonial:
+      "The eCommerce platform you developed for us is outstanding. It's visually appealing, easy to use, and has enhanced our customer experience significantly. We are thrilled with the result and grateful for your hard work.",
+  },
+  {
+    id: 5,
+    name: "Asif Awan",
+    company: "Online Bechdo",
+    image: asfi_logo,
+    testimonial:
+      "The classified ads website you developed for Online Bechdo is absolutely fantastic. It's user-friendly, visually appealing, and perfectly tailored to our needs. The platform has made it so much easier for users to buy and sell online.",
+  },
+  {
+    id: 6,
+    name: "Muhammad Hammad",
+    company: "Innvotek Pharma",
+    image: hammad_logo,
+    testimonial:
+      "The website developed for Innvotek Pharma beautifully captures our company's mission and professionalism. It's informative, user-friendly, and designed with precision to meet the needs of our industry.",
   },
 ];
