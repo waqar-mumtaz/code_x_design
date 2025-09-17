@@ -150,3 +150,90 @@ export const experienceData = [
       "Enhance learning experiences with our education and tutoring website service. Connect students with expert tutors, access interactive learning materials, and achieve academic success through personalized guidance.",
   },
 ];
+
+export const faqData = [
+  {
+    id: 1,
+    question: "What services does your digital agency offer?",
+    answer:
+      "We offer a wide range of services including Web Development, Mobile App Development, Web App Development, UI/UX Designing, Search Engine Optimization (SEO), Digital Marketing, Graphic Designing, Social Media Marketing, Video Editing, and Server Management.",
+  },
+  {
+    id: 2,
+    question: "What industries do you cater to?",
+    answer:
+      "We serve clients across various industries including E-commerce, Healthcare, Education, Real Estate, Finance, Technology, Manufacturing, and many more. Our team has experience working with diverse business sectors.",
+  },
+  {
+    id: 3,
+    question: "How do you ensure the quality of your services?",
+    answer:
+      "We follow strict quality assurance processes including code reviews, testing phases, performance optimization, and regular client feedback. Our team uses industry best practices and maintains high standards throughout the development process.",
+  },
+  {
+    id: 4,
+    question: "Which technologies do you use for web development?",
+    answer:
+      "We use modern technologies including React, Next.js, Node.js, Python, PHP, JavaScript, TypeScript, and various databases like MySQL, MongoDB, and PostgreSQL. We stay updated with the latest frameworks and tools.",
+  },
+  {
+    id: 5,
+    question: "Do you develop apps for both iOS and Android?",
+    answer:
+      "Yes, we develop native and cross-platform mobile applications for both iOS and Android platforms. We use React Native, Flutter, and native development tools to create high-performance mobile apps.",
+  },
+  {
+    id: 6,
+    question: "Do you assist with app store submissions?",
+    answer:
+      "Absolutely! We provide complete support for app store submissions including preparing store listings, creating app descriptions, optimizing for app store SEO, and handling the submission process for both Google Play Store and Apple App Store.",
+  },
+  {
+    id: 7,
+    question: "What is the difference between a web app and a website?",
+    answer:
+      "A website is typically informational with static content, while a web app is interactive and functional. Web apps allow users to perform tasks, manage data, and interact with dynamic content, similar to desktop applications but accessible through web browsers.",
+  },
+  {
+    id: 8,
+    question: "Can you integrate third-party APIs into web apps?",
+    answer:
+      "Yes, we have extensive experience integrating various third-party APIs including payment gateways, social media APIs, cloud services, analytics tools, and other business-specific APIs to enhance functionality and user experience.",
+  },
+  {
+    id: 9,
+    question: "What is your approach to UI/UX design?",
+    answer:
+      "We follow a user-centered design approach, starting with research and user personas, creating wireframes and prototypes, conducting usability testing, and iterating based on feedback to ensure optimal user experience and interface design.",
+  },
+  {
+    id: 10,
+    question: "Can you redesign an existing app or website?",
+    answer:
+      "Yes, we specialize in redesigning existing applications and websites. We analyze current functionality, identify improvement areas, and create modern, user-friendly designs while maintaining or enhancing existing features.",
+  },
+  {
+    id: 11,
+    question: "How long does it take to see SEO results?",
+    answer:
+      "SEO results typically start showing within 3-6 months, with significant improvements visible after 6-12 months of consistent optimization. The timeline depends on competition, current website status, and the scope of SEO work performed.",
+  },
+  {
+    id: 12,
+    question: "What digital marketing services do you provide?",
+    answer:
+      "We offer comprehensive digital marketing services including SEO, SEM, Social Media Marketing, Content Marketing, Email Marketing, PPC Advertising, Analytics, and Performance Tracking to help businesses grow their online presence.",
+  },
+  {
+    id: 13,
+    question: "What types of graphic design services do you offer?",
+    answer:
+      "Our graphic design services include logo design, brand identity, business cards, brochures, flyers, social media graphics, web banners, infographics, and custom illustrations tailored to your brand and marketing needs.",
+  },
+  {
+    id: 14,
+    question: "Which social media platforms do you work with?",
+    answer:
+      "We work with all major social media platforms including Facebook, Instagram, Twitter, LinkedIn, YouTube, TikTok, Pinterest, and emerging platforms. We create platform-specific content and strategies for maximum engagement.",
+  },
+];
