@@ -1,4 +1,3 @@
-import planning from "../../assets/imgs/planning.png";
 import Banner from "./components/banner";
 import Services from "./components/services";
 import Achievements from "./components/achievements";
@@ -10,6 +9,7 @@ import haider_logo from "@/assets/imgs/haider_logo.png";
 import ali_logo from "@/assets/imgs/ali_logo.png";
 import asfi_logo from "@/assets/imgs/asfi_logo.jpg";
 import hammad_logo from "@/assets/imgs/hammad_logo.jpeg";
+import WorkingProcess from "./components/working-process";
 
 const Home = () => {
   return (
@@ -19,24 +19,7 @@ const Home = () => {
       <Achievements />
       <Experience />
       <OurWorks />
-      <section>
-        <div className="text-center">
-          <h5 className="lato-black tracking-widest text-sm">OUR PROCESS</h5>
-          <h1 className="text-5xl lato-black text-blue tracking-wider">
-            Our Working Process
-          </h1>
-        </div>
-        <div className="grid grid-cols-4">
-          <div className=" inline-block">
-            <div className="relative  bg-blue inline-flex justify-center p-10 rounded-lg">
-              <img className="w-12" src={planning} alt="" />
-            </div>
-            <span className="absolute top-2 bg-blue border-4 border-gray-100 rounded-full text-white px-2 lato-black text-sm">
-              1
-            </span>
-          </div>
-        </div>
-      </section>
+      <WorkingProcess />
       <section>
         <div className="text-center">
           <p className="lato-black tracking-widest text-sm">TESTIMONALS</p>
