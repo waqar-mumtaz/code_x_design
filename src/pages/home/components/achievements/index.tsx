@@ -9,7 +9,7 @@ import package_2 from "@/assets/imgs/package-2.png";
 
 const Achievements = () => {
   return (
-    <section className="my-10 md:my-40">
+    <section className="my-10 md:my-40 my-container">
       <div className="flex flex-col md:grid md:grid-cols-2 gap-2">
         {/* Left Column */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-2">

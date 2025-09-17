@@ -4,7 +4,7 @@ import best_design from "@/assets/imgs/best_design.png";
 import { bannerText } from "@/assets/data";
 const Banner = () => {
   return (
-    <section>
+    <section className="my-container">
       <div className="mt-16 flex flex-col  md:flex-row items-center md:mt-40 gap-4">
         <div className="text-center  md:text-left flex flex-col gap-y-4 animate-fade-in-up">
           <div>

@@ -9,7 +9,7 @@ import bblaze from "@/assets/imgs/BBlaze.png";
 
 const OurWorks = () => {
   return (
-    <section className="mt-28">
+    <section className="mt-28 my-container">
       <div className="text-center">
         <h5 className="lato-black tracking-widest text-sm uppercase ">
           see what we work

@@ -9,7 +9,7 @@ import "swiper/css/navigation";
 import { testimonialsData } from "@/assets/data";
 const Testimonials = () => {
   return (
-    <section className="py-20">
+    <section className="py-20 my-container">
       <div className="text-center mb-16">
         <p className="lato-black tracking-widest text-sm">TESTIMONIALS</p>
         <h1 className="text-5xl lato-black text-blue tracking-wider">

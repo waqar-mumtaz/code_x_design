@@ -42,7 +42,7 @@ const WorkingProcess = () => {
   ];
 
   return (
-    <section className="py-32">
+    <section className="py-32 my-container">
       <div className="my-container">
         <div className="text-center mb-16">
           <h5 className="lato-bold tracking-wider text-sm text-gray-600 mb-4">
