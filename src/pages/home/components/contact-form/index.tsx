@@ -1,10 +1,13 @@
-import React from "react";
-
 const ContactForm = () => {
   return (
     <section className="mt-52 mb-24 my-container">
       <div className=" md:flex gap-10 items-center">
-        <div className="text-center md:text-start">
+        <div
+          data-aos="fade-right"
+          data-aos-duration="1500"
+          data-aos-delay="300"
+          className="text-center md:text-start"
+        >
           <p className="lato-black tracking-widest text-sm uppercase">
             Say Hi to us
           </p>
@@ -20,30 +23,36 @@ const ContactForm = () => {
             <span className="lato-bold text-lg">+92 312 0594144</span>
           </div>
         </div>
-        <form action="" className="flex flex-col gap-4">
-          <div className="flex gap-2">
+        <form
+          data-aos="fade-left"
+          data-aos-duration="1500"
+          data-aos-delay="300"
+          action=""
+          className="flex flex-col gap-4"
+        >
+          <div className="flex flex-col gap-4 md:flex md:flex-row md:gap-2">
             <input
-              className="bg-gray-100 rounded-md py-2 pl-4 pr-20 border border-transparent focus:border-gray-300
+              className="bg-gray-100 w-full md:w-auto rounded-md py-2 pl-4 pr-20 border border-transparent focus:border-gray-300
            focus:outline-none transition duration-300 ease-in-out"
               type="text"
               placeholder="First Name"
             />
             <input
-              className="bg-gray-100 rounded-md py-2 pl-4 pr-20 border border-transparent focus:border-gray-300
+              className="bg-gray-100 w-full md:w-auto rounded-md py-2 pl-4 pr-20 border border-transparent focus:border-gray-300
            focus:outline-none transition duration-300 ease-in-out"
               type="text"
               placeholder="Last Name"
             />
           </div>
-          <div className="flex gap-2">
+          <div className="flex flex-col gap-4 md:flex md:flex-row md:gap-2">
             <input
-              className="bg-gray-100 rounded-md py-2 pl-4 pr-20 border border-transparent focus:border-gray-300
+              className="bg-gray-100 w-full rounded-md py-2 pl-4 pr-20 border border-transparent focus:border-gray-300
            focus:outline-none transition duration-300 ease-in-out"
               type="text"
               placeholder="Email"
             />
             <input
-              className="bg-gray-100 rounded-md py-2 pl-4 pr-20 border border-transparent focus:border-gray-300
+              className="bg-gray-100 w-full rounded-md py-2 pl-4 pr-20 border border-transparent focus:border-gray-300
            focus:outline-none transition duration-300 ease-in-out"
               type="text"
               placeholder="Phone Number"

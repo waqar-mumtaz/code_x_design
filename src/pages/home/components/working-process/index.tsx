@@ -48,7 +48,13 @@ const WorkingProcess = () => {
           <h5 className="lato-bold tracking-wider text-sm text-gray-600 mb-4">
             OUR PROCESS
           </h5>
-          <h1 className="text-5xl lato-black text-blue tracking-wider">
+          <h1
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="100"
+            data-aos-offset="100"
+            className="text-5xl lato-black text-blue tracking-wider"
+          >
             Our Working Process
           </h1>
         </div>

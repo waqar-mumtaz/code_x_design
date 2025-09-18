@@ -14,14 +14,27 @@ const OurWorks = () => {
         <h5 className="lato-black tracking-widest text-sm uppercase ">
           see what we work
         </h5>
-        <h1 className="text-5xl lato-black text-blue tracking-wider">
+        <h1
+          data-aos="fade-up"
+          data-aos-duration="1500"
+          data-aos-delay="100"
+          data-aos-offset="100"
+          className="text-3xl md:text-5xl lato-black text-blue tracking-wider"
+        >
           Our Latest Work
         </h1>
       </div>
-      <div className="grid grid-cols-2 gap-6 py-9">
-        <div className="order-1">
+      <div className="md:grid grid-cols-2 gap-6 py-9">
+        <div
+          data-aos="fade-right"
+          data-aos-duration="1500"
+          data-aos-delay="300"
+          className="order-1 text-center md:text-left"
+        >
           <h5 className="lato-bold">eCommerce Store</h5>
-          <h1 className="lato-black text-4xl text-blue">HS Products Website</h1>
+          <h1 className="lato-black text-2xl md:text-4xl text-blue">
+            HS Products Website
+          </h1>
           <p className="text-gray-600 lato-regular text-base">
             HS Products is Online Store selling Door Handles in United Kingdom.
             This website is build using WordPress CMS with the help of Page
@@ -33,20 +46,33 @@ const OurWorks = () => {
             perfectly showcases our product range. You made the entire process
             smooth and efficient.
           </p>
-          <div className="flex items-center gap-5 justify-center">
+          <div className="flex items-center gap-5 justify-center mb-10">
             <img className="w-12 rounded-full" src={haider} alt="" />
             <h5 className="text-gray-500 lato-bold text-sm">Haider Shahzad</h5>
           </div>
         </div>
-        <div className="order-2">
+        <div
+          data-aos="fade-left"
+          data-aos-duration="2000"
+          data-aos-delay="500"
+          className="order-2"
+        >
           <img src={hS_products} alt="" />
         </div>
       </div>
-      <div className="grid grid-cols-2 gap-6 py-9">
-        <div>
+      <div className="md:grid grid-cols-2 gap-6 py-9">
+        <div
+          data-aos="fade-right"
+          data-aos-duration="2500"
+          data-aos-delay="700"
+        >
           <img src={almunnaf} alt="" />
         </div>
-        <div>
+        <div
+          data-aos="fade-left"
+          data-aos-duration="3000"
+          data-aos-delay="1000"
+        >
           <h5 className="lato-bold">Business Website</h5>
           <h1 className="lato-black text-4xl text-blue">Al Munnaf Services</h1>
           <p className="text-gray-600 lato-regular text-base">
@@ -66,8 +92,12 @@ const OurWorks = () => {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-2 gap-6 py-9">
-        <div>
+      <div className="md:grid grid-cols-2 gap-6 py-9">
+        <div
+          data-aos="fade-right"
+          data-aos-duration="3500"
+          data-aos-delay="1200"
+        >
           <h5 className="lato-bold">Finance Application</h5>
           <h1 className="lato-black text-4xl text-blue">Budget Blaze</h1>
           <p className="text-gray-600 lato-regular text-base">
@@ -84,7 +114,11 @@ const OurWorks = () => {
             <h5 className="text-gray-500 lato-bold text-sm">M Usama</h5>
           </div>
         </div>
-        <div>
+        <div
+          data-aos="fade-left"
+          data-aos-duration="4000"
+          data-aos-delay="1500"
+        >
           <img src={budget_blaze} alt="" />
         </div>
       </div>

@@ -1,5 +1,3 @@
-import React from "react";
-
 import experience from "@/assets/imgs/experience.png";
 import user from "@/assets/imgs/user.png";
 import customer from "@/assets/imgs/costumer.png";
@@ -12,7 +10,13 @@ const Achievements = () => {
     <section className="my-10 md:my-40 my-container">
       <div className="flex flex-col md:grid md:grid-cols-2 gap-2">
         {/* Left Column */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+        <div
+          data-aos="fade-right"
+          data-aos-duration="1500"
+          data-aos-delay="100"
+          data-aos-offset="100"
+          className="grid grid-cols-1 md:grid-cols-2 gap-2"
+        >
           <div className="bg-gray-100 py-2 px-4">
             <img className="w-6/12 mx-auto" src={experience} alt="" />
             <div className="text-center mt-4">
@@ -41,7 +45,13 @@ const Achievements = () => {
         </div>
 
         {/* Right Column */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+        <div
+          data-aos="fade-left"
+          data-aos-duration="1500"
+          data-aos-delay="100"
+          data-aos-offset="100"
+          className="grid grid-cols-1 md:grid-cols-2 gap-2 fade-left"
+        >
           <div className="flex flex-col gap-2">
             <div className="bg-blue-300 flex flex-col md:flex-row items-center justify-center md:justify-start pl-6 py-5">
               <img className="w-80 md:w-16" src={customer_retention} alt="" />

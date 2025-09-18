@@ -12,7 +12,13 @@ const Experience = () => {
     <section className="my-container">
       <div className="text-center">
         <h5 className="lato-bold tracking-wider text-sm">AREAS OF EXPERTISE</h5>
-        <h1 className="text-5xl lato-black text-blue tracking-wider">
+        <h1
+          data-aos="fade-up"
+          data-aos-duration="1500"
+          data-aos-delay="100"
+          data-aos-offset="100"
+          className="text-5xl lato-black text-blue tracking-wider"
+        >
           Industry Experience
         </h1>
       </div>

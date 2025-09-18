@@ -7,7 +7,13 @@ const Services = () => {
     <section className="mt-10 md:mt-40 my-container">
       <div className="text-center mb-10">
         <h5 className="lato-black text-sm tracking-widest">WHAT WE DO</h5>
-        <h1 className="lato-black text-5xl text-blue animate-fade-in-up">
+        <h1
+          data-aos="fade-up"
+          data-aos-duration="1500"
+          data-aos-delay="100"
+          data-aos-offset="100"
+          className="lato-black text-5xl text-blue"
+        >
           Our Core Services
         </h1>
       </div>
