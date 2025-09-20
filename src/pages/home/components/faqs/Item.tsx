@@ -27,7 +27,7 @@ const FaqItem: React.FC<FaqItemProps> = ({
               {isOpen ? "−" : "+"}
             </span>
           </div>
-          <h3 className="text-white lato-bold text-lg">{question}</h3>
+          <h3 className="text-white lato-regular text-base">{question}</h3>
         </div>
       </button>
 

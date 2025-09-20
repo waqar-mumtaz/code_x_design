@@ -131,7 +131,7 @@ const TechnologiesSection = () => {
               <img
                 src={img}
                 alt="tech"
-                className="max-w-[200px] max-h-[200px] object-contain"
+                className="w-[200px] h-[100px] object-contain"
               />
             </div>
           ))}

@@ -8,7 +8,7 @@ const Banner = () => {
       <div className="mt-16 flex flex-col  md:flex-row items-center md:mt-40 gap-4">
         <div className="text-center  md:text-left flex flex-col gap-y-4 animate-fade-in-up">
           <div>
-            <p className="lato-black text-sm uppercase">{bannerText.prefix}</p>
+            <p className="text-sm font-bold uppercase">{bannerText.prefix}</p>
             <h1 className="lato-black text-5xl  md:text-6xl text-blue">
               {bannerText.title}
             </h1>

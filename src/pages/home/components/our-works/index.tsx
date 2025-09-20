@@ -19,7 +19,7 @@ const OurWorks = () => {
           data-aos-duration="1500"
           data-aos-delay="100"
           data-aos-offset="100"
-          className="text-3xl md:text-5xl lato-black text-blue tracking-wider"
+          className="text-3xl md:text-5xl lato-black text-blue md:tracking-wider"
         >
           Our Latest Work
         </h1>
@@ -27,8 +27,8 @@ const OurWorks = () => {
       <div className="md:grid grid-cols-2 gap-6 py-9">
         <div
           data-aos="fade-right"
-          data-aos-duration="1500"
-          data-aos-delay="300"
+          data-aos-duration="1200"
+          data-aos-delay="100"
           className="order-1 text-center md:text-left"
         >
           <h5 className="lato-bold">eCommerce Store</h5>
@@ -40,7 +40,7 @@ const OurWorks = () => {
             This website is build using WordPress CMS with the help of Page
             Builder.
           </p>
-          <p className="lato-bold-italic text-gray-400 text-center px-16 text-lg py-8">
+          <p className="lato-regular-italic text-gray-500 text-center px-10 md:px-16 text-lg py-8">
             Thank you for delivering an exceptional eCommerce website for HS
             Products. The design is clean, the navigation is intuitive, and it
             perfectly showcases our product range. You made the entire process
@@ -53,8 +53,8 @@ const OurWorks = () => {
         </div>
         <div
           data-aos="fade-left"
-          data-aos-duration="2000"
-          data-aos-delay="500"
+          data-aos-duration="1300"
+          data-aos-delay="150"
           className="order-2"
         >
           <img src={hS_products} alt="" />
@@ -62,63 +62,67 @@ const OurWorks = () => {
       </div>
       <div className="md:grid grid-cols-2 gap-6 py-9">
         <div
-          data-aos="fade-right"
-          data-aos-duration="2500"
-          data-aos-delay="700"
-        >
-          <img src={almunnaf} alt="" />
-        </div>
-        <div
           data-aos="fade-left"
-          data-aos-duration="3000"
-          data-aos-delay="1000"
+          data-aos-duration="1400"
+          data-aos-delay="200"
+          className="order-1 md:order-2 text-center md:text-left"
         >
           <h5 className="lato-bold">Business Website</h5>
-          <h1 className="lato-black text-4xl text-blue">Al Munnaf Services</h1>
+          <h1 className="lato-black text-2xl md:text-4xl text-blue">
+            Al Munnaf Services
+          </h1>
           <p className="text-gray-600 lato-regular text-base">
             Al Munnaf Traders is a Construction Company working in different
             countries. This website is build using WordPress CMS with the help
             of Page Builder.
           </p>
-          <p className="lato-bold-italic text-gray-400 text-center px-14 text-lg py-8">
+          <p className="lato-regular-italic text-gray-500 text-center px-8 md:px-14 text-lg py-8">
             We couldn’t be happier with the website developed for ALMUNNAF. It
             perfectly represents our services with a professional and
             user-friendly design. The team understood our vision and delivered
             beyond expectations.
           </p>
-          <div className="flex items-center gap-5 justify-center">
-            <img className="w-12 rounded-full" src={mushtaq} alt="" />
+          <div className="flex items-center gap-5 justify-center mb-10">
+            <img className="w-12 h-12 rounded-full" src={mushtaq} alt="" />
             <h5 className="text-gray-500 lato-bold text-sm">Engr. Mushtaq</h5>
           </div>
         </div>
-      </div>
-      <div className="md:grid grid-cols-2 gap-6 py-9">
+
         <div
           data-aos="fade-right"
-          data-aos-duration="3500"
-          data-aos-delay="1200"
+          data-aos-duration="1500"
+          data-aos-delay="250"
+          className="order-2 md:order-1"
+        >
+          <img src={almunnaf} alt="" />
+        </div>
+      </div>
+
+      <div className="md:grid grid-cols-2 gap-6 py-9 text-center md:text-left">
+        <div
+          data-aos="fade-right"
+          data-aos-duration="1600"
+          data-aos-delay="300"
         >
           <h5 className="lato-bold">Finance Application</h5>
-          <h1 className="lato-black text-4xl text-blue">Budget Blaze</h1>
+          <h1 className="lato-black text-2xl md:text-4xl text-blue">
+            Budget Blaze
+          </h1>
           <p className="text-gray-600 lato-regular text-base">
             Budget Blaze is a Finance Application used to manage your income and
             expenses. This App is develop using Flutter and Firebase.
           </p>
-          <p className="lato-bold-italic text-gray-400 text-center px-12 text-lg py-6">
+          <p className="lato-regular-italic text-gray-500 text-center px-6 md:px-12 text-lg py-6">
             The mobile application you developed for Budget Blaze is
             outstanding. The intuitive design and smooth functionality make
             tracking income and expenses effortless for users.
           </p>
-          <div className="flex items-center gap-5 justify-center">
+          <div className="flex items-center gap-5 justify-center mb-10">
             <img className="w-12 rounded-full" src={bblaze} alt="" />
             <h5 className="text-gray-500 lato-bold text-sm">M Usama</h5>
           </div>
         </div>
-        <div
-          data-aos="fade-left"
-          data-aos-duration="4000"
-          data-aos-delay="1500"
-        >
+        <div data-aos="fade-left" data-aos-duration="2100" data-aos-delay="700">
           <img src={budget_blaze} alt="" />
         </div>
       </div>

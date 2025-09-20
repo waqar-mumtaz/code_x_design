@@ -13,7 +13,7 @@ const ContactSection = () => {
           <p className="uppercase lato-bold tracking-wider text-center text-white">
             Appointment
           </p>
-          <h1 className="lato-black text-5xl text-blue">
+          <h1 className="lato-black text-center text-4xl md:text-5xl text-blue">
             Start Your Project With Us
           </h1>
         </div>

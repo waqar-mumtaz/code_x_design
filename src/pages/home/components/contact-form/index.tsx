@@ -1,11 +1,11 @@
 const ContactForm = () => {
   return (
-    <section className="mt-52 mb-24 my-container">
+    <section className="mt-10 md:mt-52 mb-24 my-container">
       <div className=" md:flex gap-10 items-center">
         <div
           data-aos="fade-right"
-          data-aos-duration="1500"
-          data-aos-delay="300"
+          data-aos-duration="1000"
+          data-aos-delay="100"
           className="text-center md:text-start"
         >
           <p className="lato-black tracking-widest text-sm uppercase">
@@ -25,10 +25,10 @@ const ContactForm = () => {
         </div>
         <form
           data-aos="fade-left"
-          data-aos-duration="1500"
-          data-aos-delay="300"
+          data-aos-duration="1000"
+          data-aos-delay="100"
           action=""
-          className="flex flex-col gap-4"
+          className="flex flex-col gap-4 mt-14"
         >
           <div className="flex flex-col gap-4 md:flex md:flex-row md:gap-2">
             <input

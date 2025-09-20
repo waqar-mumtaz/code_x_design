@@ -54,7 +54,7 @@ const Testimonials = () => {
             <SwiperSlide key={testimonial.id} className="h-full">
               <div className="h-full px-14 pt-16 pb-24 border border-transparent border-b-blue-600 hover:border-pink-100 hover:border-b-blue-600 transition-colors duration-500 bg-white shadow-lg rounded-lg flex flex-col">
                 <img
-                  className="w-20 rounded-full"
+                  className="w-20 h-20 rounded-full"
                   src={testimonial.image}
                   alt={testimonial.name}
                 />

@@ -13,9 +13,9 @@ const Faqs = () => {
     <section className="py-20 bg-black">
       <div className="my-container">
         <div className="text-center mb-16">
-          <h5 className="lato-bold tracking-wider text-sm text-white mb-4">
+          <p className="lato-bold tracking-wider text-sm text-white">
             HAVE A QUESTION?
-          </h5>
+          </p>
           <h1
             data-aos="fade-up"
             data-aos-duration="1500"
@@ -27,7 +27,7 @@ const Faqs = () => {
           </h1>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div className=" grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Left Column */}
           <div className="space-y-8">
             {faqData.slice(0, Math.ceil(faqData.length / 2)).map((faq) => (
